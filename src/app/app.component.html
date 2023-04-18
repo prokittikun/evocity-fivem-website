@@ -1,0 +1,78 @@
+<nav class="navbar navbar-expand-lg navbar-dark py-2">
+    <div class="container">
+        <a class="navbar-brand" [routerLink]="" target="_self">
+            <img class="mx-auto d-block" src="./assets/Evo1024.png" alt="ss" width="60px">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars" aria-hidden="true" style="color:#ffffff"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav ml-3">
+                <li class="nav-item">
+                    <a class="nav-link nav-link" [routerLink]="['home']">หน้าหลัก</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link" [routerLink]="['store']">ร้านค้า</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ml-3">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link" style="cursor: pointer;" (click)="login()">เข้าสู่ระบบ</a>
+                    </li>
+                </ul>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<router-outlet></router-outlet>
+<footer class="footer">
+    <div class="card p-5">
+        <div class="container p-3">
+            <div class="row text-white">
+                <div class="col-sm-5">
+                    <i class="fas fa-id-card-alt fa-2x"></i>&nbsp;<span style="font-size: 30px;">เกี่ยวกับเรา</span>
+                    <hr>
+                    <div class="mt-3"></div>
+                    <p><span style="font-size: 20px;">เซิร์ฟเวอร์ Evo City เปิดให้บริการเมื่อวันที่ xx/xx/xxxx รองรับ
+                            1024
+                            Slots มีฐานผู้เล่นเฉลี่ย40คนต่อวัน Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Ipsum, id!</span></p>
+                </div>
+                <!-- <div class="mr-5"></div> -->
+                <div class="col-sm-4">
+                    <i class="fab fa-discord fa-2x"></i>&nbsp;<span style="font-size: 30px;">Discord</span>
+                    <hr>
+                    <div class="mt-3"></div>
+                    <div class="" style="font-size: 20px;"><a class="text-danger" target="_blank"
+                            href="https://discord.gg/ZSpTN6SbTC">Evo City</a></div>
+
+                </div>
+                <div class="col-sm-3">
+                    <i class="fab fa-facebook fa-2x"></i>&nbsp;<span style="font-size: 30px;">Facebook</span>
+                    <hr>
+                    <div class="fb-page" data-href="https://www.facebook.com/EVOCity-Roleplay-119238293682397/"
+                        data-tabs="" data-width="" data-height="" data-small-header="false"
+                        data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                        <blockquote cite="https://www.facebook.com/EVOCity-Roleplay-119238293682397/"
+                            class="fb-xfbml-parse-ignore"><a
+                                href="https://www.facebook.com/EVOCity-Roleplay-119238293682397/">EVOCity Roleplay</a>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+    </div>
+</footer>
+<footer class="footer">
+    <div class="card p-3">
+        <div class="container">
+            <div class="text-left text-white">
+                <span>Copyright &copy; 2021 <a href="" class="text-white ">ProFile Dev.</a> All Right Reserved.</span>
+            </div>
+        </div>
+    </div>
+</footer>

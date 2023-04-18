@@ -1,0 +1,27 @@
+*{
+    color: white;
+}
+.center{
+    text-align: -webkit-center;
+}
+.card {
+    display: block;
+    // text-align: -webkit-center;
+    border-radius: 0;
+    background-size: cover;
+    // height: 2em;
+    background-color: #151218;
+}
+.card2 {
+    display: block;
+    // text-align: -webkit-center;
+    border-radius: 0;
+    background-size: cover;
+    // height: 2em;
+    background-color: rgb(37, 34, 37);
+}
+.container-custom{
+    max-width: 1420px;
+    margin: auto;
+    
+}
